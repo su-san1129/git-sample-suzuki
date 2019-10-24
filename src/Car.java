@@ -4,6 +4,10 @@ public class Car {
 	int speed;
 	int name;
 	int gas;
+
+	private int tire;
+
+
 	public int getSpeed() {
 		return speed;
 	}
@@ -23,6 +27,19 @@ public class Car {
 		this.gas = gas;
 	}
 	
+	/**
+	 * @return the tire
+	 */
+	public int getTire() {
+		return tire;
+	}
+
+	/**
+	 * @param tire the tire to set
+	 */
+	public void setTire(int tire) {
+		this.tire = tire;
+	}
 	
 
 }
